@@ -4,6 +4,7 @@ const api = {
 }
 
 
+
 const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
 
@@ -54,3 +55,7 @@ function dateBuilder(d) {
 
   return `${day} , ${date} ${month} ${year}`;
 }
+
+
+
+
